@@ -28,6 +28,11 @@ height: 10%;
     } */
 
 
+
+    .containerOfInputsSignUp
+    {
+        width: 100% !important;
+    }
     .navbar > .container, .navbar > .container-fluid
     {
         justify-content: center;
@@ -50,6 +55,36 @@ height: 10%;
     {
         margin: 5px 0;
     }
+}
 
 
+@media only screen and (min-width: 600px) and (max-width: 750px)
+{
+    .input-group-text
+    {
+        width: 30%;
+    }
+}
+
+
+@media only screen and (min-width: 750px) and (max-width: 950px)
+{
+    .input-group-text
+    {
+        width: 25%;
+    }
+}
+@media only screen and (min-width: 950px)
+{
+    .input-group-text
+    {
+        width: 20%;
+    }
+}
+@media only screen and (min-width: 1000px)
+{
+    .input-group-text
+    {
+    width: 15%;
+    }
 }
