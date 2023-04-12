@@ -26,6 +26,11 @@ height: 10%;
 }
 
 
+body
+{
+    font-family: 'Roboto Slab', serif !important;
+}
+ 
 .main-bg-color 
 {
     background:  #C58F35 !important;
