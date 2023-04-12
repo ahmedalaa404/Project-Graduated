@@ -53,3 +53,43 @@ header
     color: #ffff;
     text-decoration: none;
 }
+
+@media only screen and (min-width: 0px) and (max-width:950px )
+ {
+
+
+    .registerAccount
+    {
+        width: 100% !important; 
+
+    }
+    .SizeOfContainer
+    {
+        width: 100%;
+    }
+
+    .ContainerHomePage
+    {
+        flex-direction: column-reverse !important;
+    }
+    .containerBtn
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .containerBtn>button
+    {
+        margin: 10px !important;
+       width:40% !important;
+    }
+ }
+
+ @media only screen and  (min-width:950px )
+ {
+
+
+    .SizeOfContainer
+    {
+        width: 50%;
+    }
+ }
