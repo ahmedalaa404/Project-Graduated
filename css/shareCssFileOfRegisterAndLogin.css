@@ -3,6 +3,8 @@
     width: 12%;
 }
 
+
+
 .input-group.mb-3
 {
 
@@ -21,7 +23,10 @@ height: 10%;
 }
 
 
-
+.main-color
+{
+    color:  #C58F35;
+}
 
 
 
@@ -37,12 +42,16 @@ body
 }
 
 
+
+
+
+
+
+
+
 @media only screen and (max-width: 600px)
  {
-    /* .container.py-5 // for test onely
-    {
-        background-color: red;
-    } */
+
 
 
 
@@ -55,9 +64,12 @@ body
         justify-content: center;
     }
 
-    .col-lg-12 .input-group
+    .col-lg-12 span
     {
-        flex-direction: column;
+        background-color: rgba(61, 57, 57, 0.165) !important;
+        font-size: 1.3rem ;
+        font-weight: 500;
+
     }
 
     .col-lg-12 .input-group  input,
@@ -71,8 +83,33 @@ body
 
     {
         margin: 5px 0;
+    } 
+    .row.py-5 , .container.py-5
+    {
+        padding-top:20px !important ;
     }
+
+     .container.py-5
+    {
+        padding-bottom: 0 !important;
+
+    }
+    .col-lg-11 ,.row.py-5 
+    {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+
+    }
+    .col-lg-11 button
+    {
+        margin: 10px 0;
+    }
+
+
+
+
 }
+
 
 
 @media only screen and (min-width: 600px) and (max-width: 750px)
@@ -98,6 +135,8 @@ body
         width: 20%;
     }
 }
+
+
 @media only screen and (min-width: 1000px)
 {
     .input-group-text
