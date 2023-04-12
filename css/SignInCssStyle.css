@@ -20,6 +20,16 @@
 height: 10%;
 }
 
+.main-color
+{
+    color:  #C58F35;
+}
+
+
+.main-bg-color 
+{
+    background:  #C58F35 !important;
+}
 @media only screen and (max-width: 600px)
  {
     /* .container.py-5 // for test onely
