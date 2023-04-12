@@ -27,6 +27,12 @@ height: 10%;
         background-color: red;
     } */
 
+
+    .navbar > .container, .navbar > .container-fluid
+    {
+        justify-content: center;
+    }
+
     .col-lg-12 .input-group
     {
         flex-direction: column;
