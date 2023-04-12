@@ -23,10 +23,19 @@ height: 10%;
 
 
 
+
+
 body
 {
     font-family: 'Roboto Slab', serif !important;
 }
+ 
+.main-bg-color 
+{
+    background:  #C58F35 !important;
+    color:white !important ;
+}
+
 
 @media only screen and (max-width: 600px)
  {
