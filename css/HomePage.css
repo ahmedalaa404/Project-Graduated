@@ -3,7 +3,7 @@ header
 {
     background-image: url("../Image/Web\ 1920\ –\ 1.png"); 
     background-position: center;
-    background-image: contain;
+    background-size: cover;
     height: 100vh;
 }
 
