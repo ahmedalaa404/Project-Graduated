@@ -84,10 +84,8 @@ header
     }
  }
 
- @media only screen and  (min-width:950px )
+ @media only screen and (min-width:950px )
  {
-
-
     .SizeOfContainer
     {
         width: 50% !important;
