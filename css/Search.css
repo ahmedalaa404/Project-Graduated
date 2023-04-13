@@ -1,0 +1,49 @@
+
+.btn-bg-main:hover
+{
+    color: white;
+}
+.btn-view-profile
+{
+    background-color: transparent;
+    color: black;
+    border: 1px solid #c59035;
+}
+.btn-view-profile:hover
+{
+    color: #c59035;
+}
+
+
+@media screen and (min-width:0px) and (max-width:950px)
+{
+        .desc-persone
+        {
+            text-align: center;
+            padding-top:10px ;
+        }
+        .buttonsServicesOrView
+        {
+            flex-direction: column;
+        }
+        .buttonsServicesOrView button
+        {
+            margin: 10px 0;
+
+        }
+        .Rating
+        {
+            justify-content: center !important; 
+        }
+ 
+}
+
+
+@media screen and (min-width:951px)
+{
+        .desc-persone
+        {
+            text-align: start !important;
+            padding-top:0px ;
+        }
+}
