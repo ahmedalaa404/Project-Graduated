@@ -45,7 +45,7 @@ header
 .BtnSignUP , .BtnLogin
 {
     color: white;
-    padding: 1px 30px;
+    padding: 10px 45px;
     border-radius: 30px;
 }
 .BtnSignUP>a , .BtnLogin>a
