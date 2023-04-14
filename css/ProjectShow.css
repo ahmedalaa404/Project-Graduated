@@ -1,0 +1,32 @@
+.name-persone-have-project
+{
+    width: 30%;
+}
+
+.bg-main-color
+ {
+    background-color: #C59035;
+    border-radius: 32px;
+}
+.Image-persone
+{
+    border-radius: 32px;
+}
+
+.vh-50
+{
+    height: 50vh !important;
+}
+
+
+@media screen and (min-width:0) and (max-width:950px)
+{
+    .name-persone-have-project
+{
+    width: 100%;
+}
+    .vh-50
+    {
+        height: 100vh !important;
+    }
+}
